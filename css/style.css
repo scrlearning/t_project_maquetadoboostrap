@@ -1,0 +1,402 @@
+/* Esta es el lugar donde vamos a declarar nuestros estilos (y así se comenta en CSS, distinto a HTML. Un CSS para todos los HTML */
+
+/* paleta de colores escogida (coolors - web)---> ver https://coolors.co/0b090a-161a1d-660708-a4161a-ba181b-e5383b-b1a7a6-d3d3d3-f5f3f4-ffffff 
+
+#0B090A (richBlackFogra39)
+#161A1D (eerieBlack)
+#660708 (bloodRed)
+#A4161A (rubyRed)
+#BA181B (carnelian)
+#E5383B (imperialRed)
+#B1A7A6 (silverChalice)
+#D3D3D3 (lightGray)
+#F5F3F4 (cultured)
+#FFFFFF (white) */
+
+/* Tipo de letras (font families importadas de google)
+ */
+
+.grid_ContainerPaginaInicio {    
+    
+    display: grid;
+    background-color: #F5F3F4;
+    grid-template-rows: auto auto auto;
+    
+
+}
+
+.grid_ContainerPaginaInicio_section {
+    display: grid;
+    background-color: #F5F3F4;
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin-top: auto;
+    
+}
+
+.grid_ContainerPaginaContacto {
+
+    display: grid;
+    background-color: #F5F3F4;
+    grid-template-rows: auto auto auto;
+
+}
+
+.grid_ContainerPaginaContacto_formulario{
+
+    display: grid;
+    background-color: #0B090A;
+    grid-template-columns: auto auto;
+    justify-content:space-evenly ;
+    
+
+}
+
+.grid_ContainerPaginaContacto_footer{
+    display:grid;
+    background-color: #FFFFFF;
+    grid-template-columns: auto auto auto;
+    justify-items: right;  
+    font-family: 'Jura' ;
+    text-align: center;
+    font-weight: 300 ;
+    font-size: 2.0 ; 
+
+}
+
+._4_GridContainerPaginaContacto{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Shadows_Into_Light';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #FFFFFF;
+
+    text-align:center;
+    padding: 0 1 rem;
+    position: 1;
+
+}
+
+.fieldsetStyles{
+
+    background-color: #F5F3F4;
+
+}
+
+._6_GridContainerPaginaContacto{
+
+    padding-right: 200px;
+    font-family: 'Jura' ;
+    text-align: center;
+    font-weight: 300 ;
+    font-size: 2.0 ;
+}
+
+.cuerpo{
+    background-color:#F5F3F4;
+   
+} /* cuerpo = body */
+
+.headerHr{
+
+    background-color:#B1A7A6;
+    border: 10.5px double #161A1D;
+   
+}
+
+.headerHr_light{
+    background-color: #161A1D;
+    border: 1.5px double #B1A7A6;
+
+}
+.headerHr_lightSection{
+
+    background-color: #B1A7A6;
+    border: 2.5px solid #161A1D;
+
+}
+
+.header { 
+    background-color:#FFFFFF;
+    color: #0B090A;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.listaDelHeader{
+
+    display: flex;
+    list-style: none;
+    
+}
+
+.paginasDeMiLista{
+
+   margin: 0px 10px; 
+
+}
+
+.linksDeLasPaginasDeMiLista {
+
+    font-family: 'Shadows_Into_Light';
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #0B090A;
+    text-align: justify;
+    padding: 0 1 rem;
+    position: 1;
+
+}
+
+.logo {
+    max-width: 100%;
+
+}
+
+.principalDelIndexHtml{
+
+} /*principal = main */
+
+.modoNoche {
+    max-width:100%;
+    display:flex;
+    padding-left: 2;
+
+}
+
+.divPreguntas { 
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: right;
+
+}
+
+.signoDePregunta {
+
+}
+
+
+.heroSection { 
+    
+    background-image: url("../imagenes/heroSection\(tangoProject\).jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 85vh;
+    display:grid;
+    grid grid-template-rows: auto auto auto;
+    align-items: center;
+   
+
+}
+
+.cajaHeroSection{
+
+}
+
+.textoPrincipal{
+    font-family: 'Shadows_Into_Light', cursive;
+    font-weight: 400;
+    font-size: 3.5rem;
+    color: #A4161A ;
+    text-align-last: right;
+    padding-right: 25px;
+}
+
+.textoSecundario1{ 
+    
+    font-family: 'Shadows_Into_Light';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 50px;
+    position: 1;
+    
+
+}
+.textoSecundario2{ 
+    
+    font-family: 'Shadows_Into_Light';
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 70px;
+    position: 1;
+    
+
+}
+
+.imagenDescriptivaHtmls {
+    
+    width: 1425px;
+    height: 300px;
+
+}
+
+.tituloDelHtml {
+
+    background-color:#161A1D ;
+    color:#A4161A   ;
+    font-family:'Jura' ;
+    font-weight: 300 ;
+    font-size: 4.0 ;
+    text-align: center;
+   
+
+}
+
+.seccionSecundaria{
+    background-color: #F5F3F4;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botonesDeSection {
+
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.botonesSeccionSecundaria {
+
+    font-family: 'Jura';
+    font-weight: 400;
+    font-size: 1.50rem;
+    color: #BA181B;
+    background-color: #F5F3F4 ;
+    border: none; 
+    padding: 12px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.continuacionTextoBotones{
+
+    font-family: 'Jura';
+    font-weight: 250;
+    color: #161A1D;
+    font-size: 1.25rem;
+    text-align: right;
+    text-align-last: auto;
+   
+
+}
+
+.borderDivPlay {  
+
+    background-color: #161A1D;
+    display: grid;
+    grid-template-rows: 10px auto auto;
+    align-content: space-between;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.div_img_DivPlay { /* ver como sería esto porque las imagenes pasarían en el contexto de un juego */
+
+}
+
+.jugar {
+
+    text-align: center;
+    margin:auto;
+    display: flex ;
+    margin-top: 25px;
+
+}
+
+.img_DivPlay {
+
+    
+}
+
+.todoElDivDeJuego {
+    
+}
+
+.botonJuego {
+
+    display: flexbox;
+    align-items: center ;
+    font-family: 'Jura' ;
+    font-weight: 500  ;
+    font-size: 122.0 rem ;
+
+}
+
+.borderDivPanda {
+
+    background-color: #0B090A;
+    border-left: 3px solid #161A1D;
+    border-right: 3px solid #161A1D;
+    border-bottom: 3px solid #161A1D;
+    border-top: 3px solid #161A1D;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    vertical-align: middle;
+    float:none;
+   
+}
+
+.img_pandaTango {
+    
+    width: 330px;
+    height: 700px;
+    background-color: #161A1D;
+    border-width: 335px #161A1D;
+   
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  
+} /* ver como resolver el detalle, que apenas el juego me quedó más abajo que la imagen del panda*/
+
+.divisorContenidosHr {
+
+}
+.mapaDeRelacionesHr{
+
+}
+.footer {
+    background-color: #FFFFFF;
+}
+.footerHr{
+
+}
+.textoFooter {
+    font-family: 'Jura' ;
+    text-align: center;
+    font-weight: 300 ;
+    font-size: 2.0 ;
+    
+}
+
+.footerSobre {
+  
+  
+
+}
+
+.footerSpotify {
+    
+   
+}
+
+
